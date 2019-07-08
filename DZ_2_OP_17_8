@@ -1,0 +1,6 @@
+var a = "Привет,Мир!",
+  i, c = 0
+b = a.length
+for (i = 0; i < b; i++) {
+  c += a.charCodeAt(i)
+}
