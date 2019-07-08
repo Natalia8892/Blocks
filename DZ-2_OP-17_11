@@ -1,0 +1,15 @@
+var x = prompt("Введите число", ),
+  h = 3600,
+  d = 86400,
+  w = 604800,
+  m = 2.628e+6
+a = parseInt(x)
+if (x.includes("h")) {
+  console.log(a * h)
+} else if (x.includes("d")) {
+  console.log(a * d)
+} else if (x.includes("w")) {
+  console.log(a * w)
+} else if (x.includes("m")) {
+  console.log(a * m)
+}
