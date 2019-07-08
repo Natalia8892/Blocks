@@ -1,0 +1,2 @@
+var x = prompt("Введите число", )
+alert(Math.pow(x, 2))
