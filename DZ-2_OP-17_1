@@ -1,0 +1,4 @@
+for (var N = +prompt("Введите число", ), res = 0, i = 0; i <= N; i++) {
+  if (i % 2 === 0) continue
+  res += i
+}
