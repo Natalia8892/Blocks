@@ -7,4 +7,4 @@ function newFun (mass) {
 	return (str)
 }
 
-mass=newFun(["5",1,"**",69,"ost"])
+newFun(["5",1,"**",69,"ost"])
